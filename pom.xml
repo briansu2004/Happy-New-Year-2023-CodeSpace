@@ -14,7 +14,7 @@
 	<name>happy-new-year-2023-codespace</name>
 	<description>Happy New Year 2023 CodeSpace</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
