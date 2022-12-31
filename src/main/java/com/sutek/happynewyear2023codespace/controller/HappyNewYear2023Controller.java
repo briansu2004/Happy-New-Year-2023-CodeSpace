@@ -5,9 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1")
 public class HappyNewYear2023Controller {
-	@GetMapping(value="/happynewyear2023")
+	@GetMapping(value="/")
 	public String happyNewYear2023() {
 		return "Happy New Year 2023!";
 	}
